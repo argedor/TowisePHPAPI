@@ -16,7 +16,7 @@ composer install towise
 ```
 To import your project
 ```php
-const Towise = require('towise');
+
 ```
 ### Using Towise
 You must enter appKey and appId
