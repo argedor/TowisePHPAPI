@@ -126,10 +126,3 @@ class Towise
         return $this->createRequest($url, 'DELETE', $data);
     }
 }
-
-
-$image = "https://wallpapershome.com/images/pages/pic_v/14562.jpg";
-$t = new Towise("1","argedor123");
-
-//for detection the face  on image
-echo $t->faceDetect($image); // you can also type $image_base64
