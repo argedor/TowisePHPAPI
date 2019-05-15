@@ -1,5 +1,6 @@
 <?php
-namespace towise\api;
+namespace Towise;
+
 class Towise
 {
     private $baseUrl = "https://api.towise.io";
@@ -13,7 +14,7 @@ class Towise
     private $appKey;
 
     function Towise($appId, $appKey)
-    {
+    {   
         $this->appId = $appId;
         $this->appKey = $appKey;
     }
@@ -126,3 +127,9 @@ class Towise
     }
 }
 
+
+$image = "https://wallpapershome.com/images/pages/pic_v/14562.jpg";
+$t = new Towise("1","argedor123");
+
+//for detection the face  on image
+echo $t->faceDetect($image); // you can also type $image_base64

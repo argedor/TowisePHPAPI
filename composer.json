@@ -1,5 +1,5 @@
 {
-    "name": "towise/api",
+    "name": "towise/towise",
     "description": "Towise assists you to detect human faces and bodies with using the latest and reliable technology.",
     "keywords":["face detection","body detection","emotion detection","face comparing","towise"],
     "type": "library",
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4":{
-            "towise\\api\\":"src/"
+            "Towise\\":"src"
         }
     },
     "require": {}

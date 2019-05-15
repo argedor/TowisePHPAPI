@@ -12,7 +12,7 @@ composer 1.8+
 To install the package
 
 ```sh
-composer install towise 
+composer require towise/api
 ```
 To import your project
 ```php
