@@ -13,7 +13,7 @@ class Towise
     private $appId;
     private $appKey;
 
-    function Towise($appId, $appKey)
+    function __construct($appId, $appKey)
     {   
         $this->appId = $appId;
         $this->appKey = $appKey;

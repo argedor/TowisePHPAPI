@@ -12,17 +12,22 @@ composer 1.8+
 To install the package
 
 ```sh
-composer require towise/api
+composer require towise/towise
+
 ```
 To import your project
 ```php
-
+include_once "vendor/autoload.php";
+use Towise\Towise;
 ```
 ### Using Towise
 You must enter appKey and appId
 
 For Example:
 ```php
+<?php
+include_once 'vendor/autoload.php';
+use Towise\Towise;
 
 $image = "https://wallpapershome.com/images/pages/pic_v/14562.jpg";
 $towise = new Towise("type your appid", "type your appkey");
