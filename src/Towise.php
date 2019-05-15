@@ -1,4 +1,5 @@
 <?php
+namespace towise\api;
 class Towise
 {
     private $baseUrl = "https://api.towise.io";
@@ -75,7 +76,7 @@ class Towise
     }
     function faceComparing($image)
     {
-        $url = $this->baseUrl . $this->faceComparing;
+        $url = $this->baseUrl . $this->faceCompare;
         $data = $this->checkImage($image);
         return $this->createRequest($url, 'POST', $data);
     }

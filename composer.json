@@ -1,0 +1,19 @@
+{
+    "name": "towise/api",
+    "description": "Towise assists you to detect human faces and bodies with using the latest and reliable technology.",
+    "keywords":["face detection","body detection","emotion detection","face comparing","towise"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "harunkelesoglu",
+            "email": "harunkelesoglu_@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "towise\\api\\":"src/"
+        }
+    },
+    "require": {}
+}
